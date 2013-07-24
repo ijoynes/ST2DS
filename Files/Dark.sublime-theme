@@ -294,7 +294,10 @@
     },
     {
         "class": "sidebar_container",
-        "layer0.tint": [24, 25, 27],
+        //"layer0.tint": [24, 25, 27], // dark line
+        //"layer0.tint": [39, 40, 34], // line the same as bg
+        //"layer0.tint": [91, 92, 86], // ruler line colour
+        "layer0.tint": [60,61,57], // top border colour
         "layer0.opacity": 1.0,
         "layer0.draw_center": false,
         "layer0.inner_margin": [0, 0, 1, 0],
@@ -306,7 +309,8 @@
         "indent": 12,
         "indent_offset": 17,
         "indent_top_level": false,
-        "layer0.tint": [31, 31, 31],
+        //"layer0.tint": [31, 31, 31],
+        "layer0.tint": [39, 40, 34],
         "layer0.opacity": 1.0,
         "dark_content": false
     },
@@ -327,7 +331,8 @@
     },
     {
         "class": "sidebar_label",
-        "color": [187, 187, 187],
+        //"color": [187, 187, 187],
+        "color": [248, 248, 242],
         "shadow_color": [0, 0, 0],
         "shadow_offset": [0, 1]
     },
